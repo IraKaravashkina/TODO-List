@@ -1,0 +1,90 @@
+.input {
+  padding: 12px;
+  margin: 4px;
+}
+.input-group{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+::after, ::before {
+  box-sizing: border-box;
+}
+.text-center {
+  text-align: center !important;
+}
+.input_group.form_control:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+ .input_group.form-control {
+   position: relative;
+   flex: 1 1 auto;
+   width: 1%;
+   margin-bottom: 0;
+ }
+.form_control {
+  border-color: var(--mainGreen) !important;
+}
+.text_capitalize {
+  text-transform: capitalize!important;
+}
+.form-control {
+  display: block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.input_group_append {
+  margin-left: -1px;
+}
+.input_group_append{
+  display: flex;
+}
+.text_center {
+  text-align: center!important;
+}
+.input_group.input_group_append.button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.button:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.input_group_append .button, .input_group_prepend .button {
+  position: relative;
+  z-index: 2;
+}
+.button_green {
+  border-color: var(--mainGreen);
+  background: transparent;
+  color: var(--mainGreen);
+}
+.text_capitalize {
+  text-transform: capitalize!important;
+}
+.button {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+::after, ::before {
+  box-sizing: border-box;
+}
